@@ -9,11 +9,11 @@ Our program is designed for intellectual games. You can take the test either alo
 
 
 ## Classes description
-   Database folder: PostgreDB class, implementation of IDB interface, which connects application to database.
-   Enteties folder: Player entity for single quiz, 
+   *Database folder: PostgreDB class, implementation of IDB interface, which connects application to database.
+   *Enteties folder: Player entity for single quiz, 
                     Team entity for team quiz  
                     Question entity for questios.
-   Repositories: 
+   *Repositories: 
    
 
 
