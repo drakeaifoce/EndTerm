@@ -18,7 +18,9 @@ public class QuestionRepository implements IQuestionRepository {
     public QuestionRepository(IDB db) {
         this.db = db;
     }
-
+    /**
+     This code intended to add the questions to the DB
+     */
     @Override
     public boolean createQuestion(Question question) {
         Connection con = null;
@@ -46,7 +48,9 @@ public class QuestionRepository implements IQuestionRepository {
         }
         return false;
     }
-
+    /**
+     This code is for getting questions from the database
+     */
     @Override
     public Question getQuestion(int id) {
         Connection con = null;
@@ -79,7 +83,9 @@ public class QuestionRepository implements IQuestionRepository {
         }
         return null;
     }
-
+    /**
+    This code is for getting  all questions from the database
+     */
     @Override
     public List<Question> getAllQuestions() {
         Connection con = null;

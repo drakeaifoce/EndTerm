@@ -19,7 +19,9 @@ public class PlayerRepository implements IPlayerRepository {
     public PlayerRepository(IDB db) {
         this.db = db;
     }
-
+    /**
+     Here, we fill in the players in the database with the help of the try and catch
+     */
     @Override
     public boolean registerPlayer(Player player) {
         Connection con = null;
@@ -78,7 +80,9 @@ public class PlayerRepository implements IPlayerRepository {
         }
         return null;
     }
-
+    /**
+     This code we add points to the player for correct answers via ID
+     */
     public boolean addPoint(int id, int score) {
         Connection con = null;
         try {
@@ -132,7 +136,9 @@ public class PlayerRepository implements IPlayerRepository {
         }
         return 0;
     }
-
+    /**
+     This code output the scores of players with name, id
+     */
     @Override
     public List<Player> getScoreboard() {
         Connection con = null;
