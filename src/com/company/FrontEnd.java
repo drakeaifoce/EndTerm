@@ -65,7 +65,9 @@ public class FrontEnd {
             }
         }
     }
-
+    /**
+     * This code intended to the enter admin access
+     */
     public void adminMenu() {
         System.out.print("Enter password: ");
         String password = scanner.next();
@@ -76,7 +78,9 @@ public class FrontEnd {
             System.out.println("Access denied");
         }
     }
-
+    /**
+     * This code intended to enter to the solo game
+     */
     public void soloMenu() {
         System.out.print("Enter your name: ");
         String username = scanner.next();
@@ -97,7 +101,9 @@ public class FrontEnd {
 
         quiz.quizStart(id);
     }
-
+    /**
+     * This code intended to the play team quiz
+     */
     public void teamMenu() {
         System.out.print("Enter the number of players (minimum 4) : ");
         int amount = scanner.nextInt();
