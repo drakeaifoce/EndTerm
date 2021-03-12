@@ -15,10 +15,14 @@ Our program is designed for intellectual games. You can take the test either alo
                     Team entity for team quiz,  
                     Question entity for questios.  
                     
-   Repositories: 
+   Repositories folder: Speccific appeal to the datadase.
    
-
-
+   Controllers folder: Controllers is used to manage system or manage quiz during the session.
+   
+   Admin class: admin tool, which allows to manage the questions as admin
+   
+   Quiz class: quiz by itself for team and single session.
+   
 ## Release History
 
 * 0.2.1
