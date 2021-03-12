@@ -24,8 +24,8 @@ Our program is designed for intellectual games. You can take the test either alo
 
 ## Meta
 
->Kuanyshbek Mustafin – mr.kuanysh2003@gmail.com
->Darkhan Iliyas – drakeaifoce@gmail.com
+Kuanyshbek Mustafin – mr.kuanysh2003@gmail.com
+Darkhan Iliyas – drakeaifoce@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
